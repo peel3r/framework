@@ -7,7 +7,13 @@
 
 .pj-title-area {
     display: inline-block;
+  
 }
+
+.pj-logo-area {
+    text-align: center;
+}
+
 
 .pj-icon {
     display: inline-block;
@@ -35,4 +41,13 @@
 
 .pj-right-side-controls > div {
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .pj-right-side-controls > div {
+        text-align: right;       
+    }
+    .pj-logo-area {
+        text-align: left;
+    }
 }

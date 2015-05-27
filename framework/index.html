@@ -12,6 +12,8 @@
     <script src="Scripts/angular.min.js"></script>
 
     <script src="ext-modules/pjMenu/pjMenuModule.js"></script>
+    <script src="ext-modules/pjMenu/pjMenuDirective.js"></script>
+    <script src="ext-modules/pjMenu/pjMenuController.js"></script>
 
     <script src="ext-modules/pjFramework/pjFrameworkModule.js"></script>
     <script src="ext-modules/pjFramework/pjFrameworkDirective.js"></script>
@@ -29,6 +31,11 @@
     <pj-framework title="Scouts Adventures"
                   subtitle="Administrative App"
                   icon-file="images/logo.png">
+        <pj-menu>
+            <pj-menu-item label="Dashboard"></pj-menu-item>
+            <pj-menu-item label="Locations"></pj-menu-item>
+            <pj-menu-item label="Hicking Guides"></pj-menu-item>
+        </pj-menu>
         
     </pj-framework>
 

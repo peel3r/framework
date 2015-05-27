@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\apConfig.js" />
     <Content Include="app\app.css" />
     <Content Include="app\appModule.js" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -71,7 +72,10 @@
     <Content Include="ext-modules\pjFramework\pjFrameworkDirective.js" />
     <Content Include="ext-modules\pjFramework\pjFrameworkModule.js" />
     <Content Include="ext-modules\pjFramework\pjFrameworkTemplate.html" />
+    <Content Include="ext-modules\pjMenu\pjMenuController.js" />
+    <Content Include="ext-modules\pjMenu\pjMenuDirective.js" />
     <Content Include="ext-modules\pjMenu\pjMenuModule.js" />
+    <Content Include="ext-modules\pjMenu\pjMenuTemplate.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Icon.png" />

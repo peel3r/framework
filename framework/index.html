@@ -1,14 +1,31 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
     <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="app/app.css" rel="stylesheet" />
 
     <script src="Scripts/jquery-2.1.4.min.js"></script>
     <script src="Scripts/angular.min.js"></script>
+
+    <script src="ext-modules/pjMenu/pjMenuModule.js"></script>
+
+    <script src="ext-modules/pjFramework/pjFrameworkModule.js"></script>
+    <script src="ext-modules/pjFramework/pjFrameworkDirective.js"></script>
+    <script src="ext-modules/pjFramework/pjFrameworkController.js"></script>
+    <link href="ext-modules/pjFramework/pjFramework.css" rel="stylesheet" />
+    
+    <script src="ext-modules/pjDashboard/pjDashboardModule.js"></script>
+    <script src="app/appModule.js"></script>
+
+
+
+
 </head>
-<body>
+<body class="container-fluid">
+    <pj-framework></pj-framework>
 
 </body>
 </html>

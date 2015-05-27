@@ -1,0 +1,38 @@
+﻿
+.pj-title-bar {
+    background-color: white;
+    padding: 0 20px;
+    border-bottom: 2px solid black;
+}
+
+.pj-title-area {
+    display: inline-block;
+}
+
+.pj-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    vertical-align: top;
+    border: 1px solid #999;
+}
+
+.pj-logo-title {
+    color: #111;
+    margin-top: 6px;
+    font-size: 22px;
+}
+
+.pj-logo-subtitle {
+    font-size: 13px;
+    margin-top: -13px;
+}
+
+.pj-right-side-controls {
+    line-height: 60px;
+}
+
+.pj-right-side-controls > div {
+    text-align: center;
+}

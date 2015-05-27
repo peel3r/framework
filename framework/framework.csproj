@@ -57,12 +57,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.css" />
+    <Content Include="app\appModule.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="ext-modules\pjDashboard\pjDashboardModule.js" />
+    <Content Include="ext-modules\pjFramework\pjFramework.css" />
+    <Content Include="ext-modules\pjFramework\pjFrameworkController.js" />
+    <Content Include="ext-modules\pjFramework\pjFrameworkDirective.js" />
+    <Content Include="ext-modules\pjFramework\pjFrameworkModule.js" />
+    <Content Include="ext-modules\pjFramework\pjFrameworkTemplate.html" />
+    <Content Include="ext-modules\pjMenu\pjMenuModule.js" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Icon.png" />
@@ -101,6 +110,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

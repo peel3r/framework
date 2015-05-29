@@ -74,6 +74,8 @@
     <Content Include="ext-modules\pjFramework\pjFrameworkTemplate.html" />
     <Content Include="ext-modules\pjMenu\pjMenuController.js" />
     <Content Include="ext-modules\pjMenu\pjMenuDirective.js" />
+    <Content Include="ext-modules\pjMenu\pjMenuItemDirective.js" />
+    <Content Include="ext-modules\pjMenu\pjMenuItemTemplate.html" />
     <Content Include="ext-modules\pjMenu\pjMenuModule.js" />
     <Content Include="ext-modules\pjMenu\pjMenuTemplate.html" />
     <Content Include="fonts\fontawesome-webfont.svg" />

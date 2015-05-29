@@ -2,7 +2,7 @@
 
 angular.module("pjFramework").directive("pjFramework", function () {
     return {
-        transclude: false,
+        transclude: true,
         scope: {
             title: '@',
             subtitle: '@',

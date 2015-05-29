@@ -7,31 +7,41 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="app/app.css" rel="stylesheet" />
+    <link href="ext-modules/pjFramework/pjFramework.css" rel="stylesheet" />
+
 
     <script src="Scripts/jquery-2.1.4.min.js"></script>
     <script src="Scripts/angular.min.js"></script>
 
     <script src="ext-modules/pjMenu/pjMenuModule.js"></script>
-    <script src="ext-modules/pjMenu/pjMenuDirective.js"></script>
     <script src="ext-modules/pjMenu/pjMenuController.js"></script>
+    <script src="ext-modules/pjMenu/pjMenuDirective.js"></script>
+    <script src="ext-modules/pjMenu/pjMenuItemDirective.js"></script>
+
+    <script src="ext-modules/pjDashboard/pjDashboardModule.js"></script>
 
     <script src="ext-modules/pjFramework/pjFrameworkModule.js"></script>
-    <script src="ext-modules/pjFramework/pjFrameworkDirective.js"></script>
     <script src="ext-modules/pjFramework/pjFrameworkController.js"></script>
-    <link href="ext-modules/pjFramework/pjFramework.css" rel="stylesheet" />
+    <script src="ext-modules/pjFramework/pjFrameworkDirective.js"></script>
+   
+     
     
-    <script src="ext-modules/pjDashboard/pjDashboardModule.js"></script>
+    
+   
     <script src="app/appModule.js"></script>
+    <script src="app/apConfig.js"></script>
 
 
 
 
 </head>
 <body class="container-fluid">
+
     <pj-framework title="Scouts Adventures"
                   subtitle="Administrative App"
                   icon-file="images/logo.png">
-        <pj-menu>
+       
+         <pj-menu>
             <pj-menu-item label="Dashboard"></pj-menu-item>
             <pj-menu-item label="Locations"></pj-menu-item>
             <pj-menu-item label="Hicking Guides"></pj-menu-item>

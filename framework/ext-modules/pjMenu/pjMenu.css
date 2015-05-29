@@ -1,0 +1,42 @@
+﻿
+.pj-menu-area {
+    position: relative;
+    background-color: #333;
+    color: #ccc;
+    padding-left: 0;
+    width: 200px;
+    min-height: 100vh;
+    padding-top: 30px;
+}
+
+.pj-menu-area .btn:hover {
+    color: #ccc;
+}
+
+.pj-menu {
+    list-style-type: none;
+    vertical-align: top;
+}
+
+.pj-menu ul {
+    display: inline;
+    list-style-type: none;
+    padding-left: 0;
+}
+.pj-menu li {
+    line-height: 3em;
+    cursor: pointer;
+}
+
+.pj-selectable-item:hover {
+    background-color: #555;
+}
+
+.pj-noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
